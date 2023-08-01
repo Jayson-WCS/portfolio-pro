@@ -16,15 +16,15 @@ export const SideNav = () => {
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a href="#main" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
             <AiOutlineHome size={20}/>
-            <span className="pl-4">Home</span>
+            <span className="pl-4">Accueil</span>
           </a>
-          <a href="#about" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
+          <a href="#work" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
             <BsPerson size={20}/>
-            <span className="pl-4">About</span>
+            <span className="pl-4">Expériences Professionnelles</span>
           </a>
-          <a href="#project" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
+          <a href="#projet" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
             <GrProjects size={20}/>
-            <span className="pl-4">Projects</span>
+            <span className="pl-4">Projets</span>
           </a>
           <a href="#contact" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
             <AiOutlineMail size={20}/>
