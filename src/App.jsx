@@ -1,5 +1,6 @@
 import { Hero } from './components/Hero'
 import { SideNav } from './components/SideNav'
+import { ProjectsDisplay } from './components/projects/ProjectsDisplay'
 import { WorkTimeline } from './components/work/WorkTimeline'
 
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
       <SideNav />
       <Hero />
       <WorkTimeline />
+      <ProjectsDisplay />
     </>
   )
 }
