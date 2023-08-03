@@ -2,6 +2,7 @@ import { useState }from "react"
 import { AiOutlineMenu, AiOutlineHome, AiOutlineMail } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
+import { MdWorkOutline } from "react-icons/md";
 
 export const SideNav = () => {
   const [nav, setNav] = useState(false);
@@ -16,6 +17,10 @@ export const SideNav = () => {
           <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
             <AiOutlineHome size={20}/>
             <span className="pl-4">Accueil</span>
+          </a>
+          <a onClick={handleNav} href="#about" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
+            <BsPerson size={20}/>
+            <span className="pl-4">A propos</span>
           </a>
           <a onClick={handleNav} href="#work" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
             <BsPerson size={20}/>
@@ -38,8 +43,11 @@ export const SideNav = () => {
           <a href="#main" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110 ease-in-out duration-300">
             <AiOutlineHome size={20} />
           </a>
+          <a href="#about" className="w-[75%] flex justify-center items-center rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-200">
+            <BsPerson size={20}/>
+          </a>
           <a href="#work" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110 ease-in-out duration-300">
-            <BsPerson size={20} />
+            <MdWorkOutline size={20} />
           </a>
           <a href="#projet" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110 ease-in-out duration-300">
             <GrProjects size={20} />
