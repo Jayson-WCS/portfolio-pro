@@ -23,9 +23,15 @@ export const Hero = () => {
           />
         </h2>
         <div className='flex justify-between pt-6 max-w-[150px] w-full'>
-          <FaTwitter size={20} className="cursor-pointer" />
-          <FaGithub size={20} className="cursor-pointer" />
-          <FaLinkedinIn size={20} className="cursor-pointer" />
+          <a href="https://twitter.com/jayson_delion" target='_blank' rel='noreferrer'>
+            <FaTwitter size={20} className="cursor-pointer" />
+          </a>
+          <a href="https://github.com/Jayson-WCS" target='_blank' rel='noreferrer'>
+            <FaGithub size={20} className="cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/in/jayson-delion/" target='_blank' rel='noreferrer'>
+            <FaLinkedinIn size={20} className="cursor-pointer" />
+          </a>
         </div>
       </div>
       </div>
