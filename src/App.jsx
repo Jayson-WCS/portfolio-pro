@@ -11,8 +11,8 @@ export const App = () => {
       <SideNav />
       <Hero />
       <AboutMe />
-      <WorkTimeline />
       <ProjectsDisplay />
+      <WorkTimeline />
       <ContactForm />
     </>
   )
