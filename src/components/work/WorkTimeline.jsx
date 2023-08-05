@@ -20,7 +20,7 @@ const data = [
     title: "PVT",
     company: "Australie",
     duration: "2 ans",
-    details : "Récolte agricole dans différentes régions & Wwoofing pour particuliers et organisation environnementales.",
+    details : "Récoltes agricoles dans différentes régions & Wwoofing pour des organisations environnementales.",
   }
 ]
 export const WorkTimeline = () => {
