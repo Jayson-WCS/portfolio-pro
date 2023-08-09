@@ -5,8 +5,8 @@ export const Hero = () => {
   return (
     <div id="main">
         <div className='w-full h-screen lg:pl-40 md:pl-32 bg-[#18181b] text-[#f1f5f9] m-autoflex flex flex-col justify-center lg:items-start md:items-start items-center'>
-          <h1 className='sm:text-5xl pb-8 text-4xl font-light text-[#14b8a6]'>DELION Jayson</h1>
-          <h2 className='sm:text-3xl font-bold text-2xl pt-4 pb-8'>
+          <h1 className='sm:text-5xl pb-8 text-4xl font-bold text-[#14b8a6]'>DELION Jayson</h1>
+          <h2 className='sm:text-4xl font-light lg:text-6xl pt-4 pb-9'>
             <TypeAnimation
               sequence={[
                 'Développeur Web Full Stack',
@@ -15,10 +15,10 @@ export const Hero = () => {
                 2000,
                 ]}
               speed={50}
-              repeat={Infinity}
+              repeat={2}
             />
           </h2>
-          <p className='sm:text-5xl text-2xl pb-8 font-light text-[#facc15]'>
+          <p className='sm:text-4xl text-2xl pt-6 pb-8 font-bold text-[#facc15]'>
             <TypeAnimation
               sequence={[
                 'JavaScript ',
@@ -31,24 +31,22 @@ export const Hero = () => {
                 2000,
                 'Figma',
                 2000,
-                'Git',
-                2000,
-                'GitHub',
+                'Git & GitHub',
                 2000,
                 ]}
               speed={10}
-              repeat={Infinity}
+              repeat={1}
             />
           </p>
           <div className='flex justify-between pt-6 max-w-[150px] w-full'>
             <a href="https://twitter.com/jayson_delion" target='_blank' rel='noreferrer'>
-              <FaTwitter size={25} className="cursor-pointer text-[#0ea5e9]" />
+              <FaTwitter size={25} className="cursor-pointer relative text-[#0ea5e9]" />
             </a>
             <a href="https://github.com/Jayson-WCS" target='_blank' rel='noreferrer'>
-              <FaGithub size={25} className="cursor-pointer" />
+              <FaGithub size={25} className="cursor-pointer rounded-full" />
             </a>
             <a href="https://www.linkedin.com/in/jayson-delion/" target='_blank' rel='noreferrer'>
-              <FaLinkedinIn size={25} className="cursor-pointer text-[#0ea5e9]" />
+              <FaLinkedinIn size={25} className="cursor-pointer rounded-full text-[#0ea5e9]" />
             </a>
           </div>
         </div>

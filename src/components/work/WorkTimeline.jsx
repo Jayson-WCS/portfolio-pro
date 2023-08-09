@@ -13,20 +13,20 @@ const data = [
     title: "Agent de distribution & Assistant de vente",
     company: "Carrefour",
     duration: "3 ans",
-    details : "Gestion des stocks, des flux et de leurs distributions supervisé par Directeur.",
+    details : "Gestion des stocks, des flux et de leurs distributions supervisées par Directeur.",
   },
   {
     year : 2012,
     title: "PVT",
-    company: "Australie",
+    company: "Australie & Asie du Sud Est",
     duration: "2 ans",
-    details : "Récoltes agricoles dans différentes régions & Wwoofing pour des organisations environnementales.",
+    details : "Récoltes agricoles dans différentes régions & Wwoofing pour différentes organisations environnementales.",
   }
 ]
 export const WorkTimeline = () => {
   return (
-    <div id="work" className="bg-[#18181b] h-screen m-auto lg:pl-40 md:pl-28 p-4 py-20">
-      <h1 className="text-4xl font-bold text-[#18181b] mb-9">Expériences Professionnelles</h1>
+    <div id="work" className="bg-[#18181b] text-[#f1f5f9] h-screen m-auto lg:pl-40 md:pl-28 p-4 py-20">
+      <h1 className="text-5xl text-[#facc15] font-bold mb-[56px]">Expériences Professionnelles</h1>
       {data.map((item, index) => (
         <WorkExp key={index} year={item.year} title={item.title} company={item.company} duration={item.duration} details={item.details} />
       ))}
