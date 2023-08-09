@@ -40,13 +40,13 @@ export const SideNav = () => {
       )}
       <div className="md:block hidden fixed left-[2%] top-[25%] z-10">
         <div className="flex flex-col">
-          <a href="#main" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110  hover:bg-gray-300 ease-in-out duration-300">
+          <a href="#main" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110  hover:bg-[#14b8a6] ease-in-out duration-300">
             <AiOutlineHome size={20} />
           </a>
           <a href="#about" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-[#0ea5e9] ease-in-out duration-200">
             <BsPerson size={20}/>
           </a>
-          <a href="#projet" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110 hover:bg-[#683790] ease-in-out duration-300">
+          <a href="#projet" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110 hover:bg-[#8b49c0] ease-in-out duration-300">
             <GrProjects size={20} />
           </a>
           <a href="#work" className="rounded-full drop-shadow-lg bg-gray-100 drop-shadow-gray-400 m-2 p-4 cursor-pointer  hover:scale-110 hover:bg-[#facc15] ease-in-out duration-300">
