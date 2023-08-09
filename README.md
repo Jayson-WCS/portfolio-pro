@@ -24,6 +24,7 @@ Bienvenue sur mon portfolio de développeur web full stack !    Ce projet a ét�
 
 ## Contact
 
-N'hésitez pas à me contacter si vous avez des questions, des opportunités de collaboration ou simplement pour discuter du développement web !
+N'hésitez pas à me contacter si vous avez des questions, des opportunités de collaboration ou simplement pour discuter du développement web !< br/>
+[DELION Jayson](mailto:delionjayson@gmail.com)
 
 Merci d'avoir visité mon portfolio !
