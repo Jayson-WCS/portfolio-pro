@@ -1,6 +1,6 @@
 # Portfolio de Développeur Web Full Stack
 
-Bienvenue sur mon portfolio de développeur web full stack !    Ce projet a été réalisé en utilisant React JS et Tailwind CSS pour créer une expérience moderne et dynamique.
+Bienvenue sur mon portfolio de développeur web full stack !<br />Ce projet a été réalisé en utilisant React JS et Tailwind CSS pour créer une expérience moderne et dynamique.
 
 ## Fonctionnalités
 
