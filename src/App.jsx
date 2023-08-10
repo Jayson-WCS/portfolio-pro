@@ -4,6 +4,7 @@ import { AboutMe } from './components/AboutMe'
 import { WorkTimeline } from './components/work/WorkTimeline'
 import { ProjectsDisplay } from './components/projects/ProjectsDisplay'
 import { ContactForm } from './components/ContactForm'
+import { Footer } from './components/Footer'
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
       <ProjectsDisplay />
       <WorkTimeline />
       <ContactForm />
+      <Footer />
     </>
   )
 }

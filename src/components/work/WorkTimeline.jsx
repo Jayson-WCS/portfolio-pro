@@ -25,7 +25,7 @@ const data = [
 ]
 export const WorkTimeline = () => {
   return (
-    <div id="work" className="bg-[#18181b] text-[#f1f5f9] sm:h-screen m-auto lg:pl-40 md:pl-28 p-4 py-20">
+    <div id="work" className="bg-[#18181b] text-[#f1f5f9] m-auto lg:pl-40 md:pl-28 p-4 py-20">
       <h1 className="text-5xl text-[#facc15] font-bold mb-[56px]">Expériences Professionnelles</h1>
       {data.map((item, index) => (
         <WorkExp key={index} year={item.year} title={item.title} company={item.company} duration={item.duration} details={item.details} />
