@@ -31,5 +31,5 @@ Project.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   repoLink: PropTypes.string.isRequired,
-  activeLink: PropTypes.string.isRequired,
+  activeLink: PropTypes.string,
 };
